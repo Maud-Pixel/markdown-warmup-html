@@ -1,0 +1,74 @@
+@font-face
+{
+    font-family: "DavidLibre-Regular";
+    src: url("images/font/DavidLibre-Regular.ttf");
+}
+
+content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+h1
+{
+    padding-top: 5%;
+    font-size : 80;
+    font-weight: bold;
+    font-family: "DavidLibre-Regular";
+    color: #32a852; 
+    margin-left: 45%; 
+}
+
+content
+{
+    margin-left: 10%;
+    font-size: 20px;
+}
+h2
+{
+    font-family: "DavidLibre-Regular";
+    color: #23a1cf; 
+    
+}
+
+img
+{
+    width: 150px;
+    height: 180px; 
+    border-radius: 80px;
+}
+
+table
+{
+    border: 1px solid black;
+    width: 300px; 
+}
+
+th
+{
+    color: #32a852; 
+
+}
+
+th, td 
+{
+    padding: 15px;
+    text-align: left;
+}
+
+a
+{
+    text-decoration: none;
+    color: #23a1cf; 
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #32a852;
+    border-radius: 50%;
+    display: inline-block;
+   
+  }
